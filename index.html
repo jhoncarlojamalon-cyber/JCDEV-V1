@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JCDEV WEB</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">JCDEV <span>WEB</span></div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#favorite-game">Games</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="modeBtn" class="mode-btn">🌙 Dark Mode</button>
+            <div class="burger" id="burger">
+                <span></span><span></span><span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home" data-aos="fade-up">
+        <div class="hero-text">
+            <h1>I'm <span>JCDEV</span></h1>
+            <h2 id="typing"></h2>
+            <p>I build responsive websites using HTML, CSS and JavaScript.</p>
+
+            <div class="hero-buttons">
+                <button onclick="location.href='#about-me'">About Me</button>
+                <button onclick="location.href='#project'">My Projects</button>
+                <button onclick="window.open('CV.pdf')"><i>📄</i> Download CV</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="carlo.png" alt="JCDEV">
+        </div>
+    </section>
+
+    <section id="about-me" class="about" data-aos="fade-right">
+
+        <h2>About Me</h2>
+
+        <div class="about-wrapper">
+
+            <div class="about-left">
+
+                <div class="about-image">
+                    <img src="jhon.jpg" alt="JCDEV">
+                    <div class="experience-box">
+                        <h3>0</h3>
+                        <p>Projects</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="about-right">
+                <h3>Who Am I?</h3>
+                <p>
+                    I'm <strong>JCDEV</strong>, an 18-year-old BSIT student from the Philippines.
+                    I enjoy creating responsive websites while continuously learning
+                    HTML, CSS, and JavaScript.
+                </p>
+
+                <div class="about-info">
+                    <p><i class="fa-solid fa-envelope"></i> jhoncarlojamalon@gmail.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Philippines</p>
+                    <p><i class="fa-solid fa-cake-candles"></i> Age: 18</p>
+                    <p><i class="fa-solid fa-graduation-cap"></i> BSIT Student</p>
+                </div>
+
+                <div class="about-buttons">
+                    <button onclick="window.open('https://github.com/jhoncarlo-jamalon-cyber', '_blank')">
+                    <i class="fa-brands fa-github"></i> GitHub
+                    </button>
+
+                    <button onclick="window.open('https://www.facebook.com/jhon.carlo.jamalon.2024', '_blank')">
+                    <i class="fa-brands fa-facebook"></i> Facebook
+                    </button>
+
+                    <button onclick="window.open('mailto:jhoncarlojamalon@gmail.com')">
+                    <i class="fa-solid fa-envelope"></i> Gmail
+                    </button>
+                </div>
+
+                <button class="cv-btn" onclick="window.open('CV.pdf')">📄 Download CV</button>
+
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>0</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat">
+                        <h3>3</h3>
+                        <p>Skills</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Passion</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill">
+            <div class="skill-top">
+                <p>HTML</p>
+                <span>90%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar html" data-width="90"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-top">
+                <p>CSS</p>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar css" data-width="80"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-top">
+                <p>JavaScript</p>
+                <span>40%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar js" data-width="60"></div>
+            </div>
+        </div>
+    </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            </section>  
+
+    <section id="favorite-game" class="games">
+        <h2>Favorite Games</h2>
+
+        <div class="game-container">
+
+            <div class="game-card">
+                <img src="ml.jpg" alt="Mobile Legends">
+                <div class="game-content">
+                    <h3>⚔️ Mobile Legends</h3>
+                    <p>One of my favorite MOBA games. I enjoy playing with friends and improving my skills.</p>
+                    <p><strong>Role:</strong> Marksman / Jungler</p>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="valo.png" alt="Valorant">
+                <div class="game-content">
+                    <h3>🎯 Valorant</h3>
+                    <p>A tactical FPS game that helps improve teamwork, communication, and strategy.</p>
+                    <p><strong>Main Agent:</strong> Jett</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p class="contact-sub">Feel free to contact me for projects, collaborations, or just to say hello.</p>
+
+        <div class="contact-wrapper">
+
+            <div class="contact-left">
+                <h3>Get In Touch</h3>
+
+                <div class="contact-info">
+                    <p class="info-title">📧 Email</p>
+                    <p class="info-value"><a href="mailto:jhoncarlojamalon@gmail.com">jhoncarlojamalon@gmail.com</a></p>
+                </div>
+
+                <div class="contact-info">
+                    <p class="info-title">📍 Location</p>
+                    <p class="info-value">Philippines</p>
+                </div>
+
+                <div class="contact-info">
+                    <p class="info-title">🎓 Course</p>
+                    <p class="info-value">BSIT Student</p>
+                </div>
+            </div>
+
+            <form class="contact-right" onsubmit="return handleSubmit(event)">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>JCDEV</h3>
+                <p>Aspiring Front-End Web Developer passionate about creating responsive and modern websites.</p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#about-me">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#project">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>📧 jhoncarlojamalon@gmail.com</p>
+                <p>📍 Philippines</p>
+            </div>
+
+        </div>
+
+        <div class="footer-social">
+            <a href="#">🐙 GitHub</a>
+            <a href="#">💻 Facebook</a>
+            <a href="#">📷 Gmail</a>
+        </div>
+
+        <p class="footer-bottom">© 2026 JCDEV. All Rights Reserved.</p>
+    </footer>
+
+    <button id="topBtn" title="Go to top">⬆</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
